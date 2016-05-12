@@ -13,6 +13,7 @@ A lightweight script with the intention of adding the features of Dollchan with 
 KC extension tools uses prototypes for modules. 
 
     function Module() { }
+    
     Module.prototype.init = function () { //code here }
 In order to call your module add it to the config first. e.g:
 
